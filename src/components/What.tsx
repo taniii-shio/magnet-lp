@@ -95,7 +95,7 @@ export const What = () => {
       <Center mt="30">
         <Flex align="center">
           <Image src="/images/logo.png" width={343.61} height={252.3} />
-          <Heading as="h2" size="xl" ml="10">
+          <Heading as="h2" size="xl" ml="10" mt="10">
             を見てみよう！
           </Heading>
         </Flex>
