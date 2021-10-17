@@ -23,12 +23,12 @@ export const Feature = () => {
               </p>
             </Box>
           </Box>
-          <Image src="/images/3display.png" width={458} height={481} />
+          <Image src="/images/1display.png" width={205} height={378} />
         </Flex>
       </Center>
 
       <Center mt="100">
-        <Image src="/images/3display.png" width={458} height={481} />
+        <Image src="/images/1display.png" width={205} height={378} />
         <Box ml="100">
           <Heading as="h2" size="xl">
             友達の暇がリアルタイムに表示される
@@ -54,7 +54,7 @@ export const Feature = () => {
               </p>
             </Box>
           </Box>
-          <Image src="/images/3display.png" width={458} height={481} />
+          <Image src="/images/2display.png" width={474} height={378} />
         </Flex>
       </Center>
     </Box>
