@@ -5,8 +5,16 @@ export const What = () => {
   return (
     <Box mt="100">
       <Center>
-        <Heading as="h1" size="3xl">
-          MAGNETとは
+        <Heading
+          as="h1"
+          size="2xl"
+          fontFamily="Days One, sans-serif"
+          fontWeight="100"
+        >
+          MAGNET
+        </Heading>
+        <Heading as="h1" size="2xl">
+          とは
         </Heading>
       </Center>
 

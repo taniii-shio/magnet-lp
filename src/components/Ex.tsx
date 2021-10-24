@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export const Ex = () => {
   return (
-    <Box mt="100">
+    <Box mt="200">
       <Center mt="100">
-        <Heading as="h2" size="xl">
+        <Heading as="h2" size="lg">
           ・こんな経験ありませんか？
         </Heading>
       </Center>
@@ -47,8 +47,16 @@ export const Ex = () => {
       </Box>
 
       <Center mt="100">
-        <Heading as="h2" size="xl">
-          ・MAGNETを使えば
+        <Heading
+          as="h1"
+          size="lg"
+          fontFamily="Days One, sans-serif"
+          fontWeight="100"
+        >
+          ・MAGNET
+        </Heading>
+        <Heading as="h1" size="lg">
+          を使えば
         </Heading>
       </Center>
 

@@ -14,10 +14,6 @@ export const Top = () => {
 
         <Image src="/images/preview.png" width={672} height={596.39} />
       </Flex>
-
-      <Box position="absolute" left="0">
-        <Image src="/images/bg-gray.png" width={535} height={2858} />
-      </Box>
     </Box>
   );
 };

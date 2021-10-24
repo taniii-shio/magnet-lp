@@ -5,8 +5,16 @@ export const Feature = () => {
   return (
     <Box mt="100">
       <Center>
-        <Heading as="h1" size="3xl">
-          MAGNETの特徴
+        <Heading
+          as="h1"
+          size="2xl"
+          fontFamily="Days One, sans-serif"
+          fontWeight="100"
+        >
+          MAGNET
+        </Heading>
+        <Heading as="h1" size="2xl">
+          の特徴
         </Heading>
       </Center>
 
