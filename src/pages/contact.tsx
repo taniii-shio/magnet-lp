@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <Box w="1300px" mx="auto">
       <Box position="absolute" zIndex="-1" left="0" opacity="0.3" mt="10">
-        <Image src="/images/bg-bluered.png" width={1440} height={1300} />
+        <Image src="/images/bg-bluered.png" width={2810.26} height={2500} />
       </Box>
 
       <Link href="/">
