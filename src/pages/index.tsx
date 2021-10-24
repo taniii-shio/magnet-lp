@@ -1,4 +1,6 @@
-import { Box } from "@chakra-ui/layout";
+import { Box, Center } from "@chakra-ui/layout";
+import { PrimaryButton } from "src/components/atoms/PrimaryButton";
+import { Download } from "src/components/Download";
 
 import { Ex } from "src/components/Ex";
 import { Feature } from "src/components/Feature";
@@ -18,6 +20,17 @@ export default function Home() {
       <Ex />
 
       <Howtouse />
+
+      <Download />
+
+      <Center mt="40">
+        <Box px="20">
+          <PrimaryButton>お問い合わせ</PrimaryButton>
+        </Box>
+        <Box px="20">
+          <PrimaryButton>よくある質問</PrimaryButton>
+        </Box>
+      </Center>
     </Box>
   );
 }
