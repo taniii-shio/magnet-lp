@@ -66,7 +66,7 @@ export const Howtouse = () => {
         </Center>
 
         <Center>
-          <Image src="/images/step3img.png" width={263} height={340.27} />
+          <Image src="/images/step3img.png" width={263} height={384} />
         </Center>
       </Box>
     </Box>
