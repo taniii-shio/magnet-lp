@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import { Box, Center } from "@chakra-ui/layout";
 import { PrimaryButton } from "src/components/atoms/PrimaryButton";
 import { Download } from "src/components/Download";
@@ -35,9 +37,13 @@ export default function Home() {
       <Download />
 
       <Center mt="40">
-        <Box px="20">
-          <PrimaryButton>お問い合わせ</PrimaryButton>
-        </Box>
+        <Link href="/contact">
+          <a>
+            <Box px="20">
+              <PrimaryButton>お問い合わせ</PrimaryButton>
+            </Box>
+          </a>
+        </Link>
         <Box px="20">
           <PrimaryButton>よくある質問</PrimaryButton>
         </Box>
