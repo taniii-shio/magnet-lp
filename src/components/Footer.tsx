@@ -35,7 +35,7 @@ export const Footer = () => {
           </Link>
         </Box>
         <Box px="10" _hover={{ color: "#686868" }}>
-          <Link href="/">
+          <Link href="/terms">
             <a>利用規約</a>
           </Link>
         </Box>

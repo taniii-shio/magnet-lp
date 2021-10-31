@@ -1,25 +1,15 @@
-import Image from "next/image";
-import Link from "next/link";
-
 import { Box, Center, Heading } from "@chakra-ui/layout";
 import { Footer } from "src/components/Footer";
 import { Input } from "@chakra-ui/input";
 import { PrimaryButton } from "src/components/atoms/PrimaryButton";
+import { Textarea } from "@chakra-ui/textarea";
+
+import { TopimgBg } from "../components/organisms/TopimgBg";
 
 export default function Contact() {
   return (
     <Box w="1300px" mx="auto">
-      <Box position="absolute" zIndex="-1" left="0" opacity="0.3" mt="10">
-        <Image src="/images/bg-bluered.png" width={2810.26} height={2500} />
-      </Box>
-
-      <Link href="/">
-        <a>
-          <Box>
-            <Image src="/images/top.png" width={250} height={218.27} />
-          </Box>
-        </a>
-      </Link>
+      <TopimgBg />
 
       <Center mt="30">
         <Heading as="h1" size="2xl">
@@ -70,7 +60,7 @@ export default function Contact() {
           </Heading>
         </Center>
         <Center mt="5">
-          <Input
+          <Textarea
             bg="white"
             placeholder="内容"
             w="600px"

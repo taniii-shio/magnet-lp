@@ -44,9 +44,13 @@ export default function Home() {
             </Box>
           </a>
         </Link>
-        <Box px="20">
-          <PrimaryButton>よくある質問</PrimaryButton>
-        </Box>
+        <Link href="/qa">
+          <a>
+            <Box px="20">
+              <PrimaryButton>よくある質問</PrimaryButton>
+            </Box>
+          </a>
+        </Link>
       </Center>
 
       <Footer />
