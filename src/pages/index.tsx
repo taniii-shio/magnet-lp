@@ -23,9 +23,9 @@ export default function Home() {
       <What />
 
       <Feature />
-      <Box position="absolute" right="0" zIndex="-1">
+      {/* <Box position="absolute" right="0" zIndex="-1">
         <Image src="/images/bg-gray2.png" width={600} height={2858} />
-      </Box>
+      </Box> */}
 
       <Ex />
       <Box position="absolute" left="0" zIndex="-1" mt="40">
