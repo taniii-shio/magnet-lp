@@ -36,6 +36,7 @@ export const What = () => {
         </Center>
       </Box>
 
+      {/* responsive */}
       <Box mt="300" d={["block", "none"]}>
         <Center>
           <Heading
@@ -61,7 +62,7 @@ export const What = () => {
         </Center>
 
         <Center>
-          <Heading as="h1" size="2xl" mt="40" w="700px">
+          <Heading as="h1" size="3xl" mt="40" w="750px">
             暇という無限大のエネルギーを 「友達や大切な人と遊ぶ」という
             かけがえのない幸せへと変換します。
           </Heading>
