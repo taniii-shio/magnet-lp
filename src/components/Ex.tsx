@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Center } from "@chakra-ui/layout";
+import { Box, Flex, Heading, Center, Text } from "@chakra-ui/layout";
 import Image from "next/image";
 
 export const Ex = () => {
@@ -120,9 +120,9 @@ export const Ex = () => {
           </Center>
 
           <Center ml="300">
-            <Heading as="h2" size="2xl">
+            <Text fontSize="6xl" fontWeight="bold">
               ためらってしまう。
-            </Heading>
+            </Text>
           </Center>
 
           <Center mr="600">
@@ -130,9 +130,9 @@ export const Ex = () => {
           </Center>
 
           <Center mr="300">
-            <Heading as="h2" size="2xl">
+            <Text fontSize="6xl" fontWeight="bold">
               諦めてしまう。
-            </Heading>
+            </Text>
           </Center>
         </Box>
 
