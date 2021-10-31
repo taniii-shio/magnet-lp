@@ -10,7 +10,7 @@ export const PrimaryButton: VFC<Props> = memo((props) => {
   return (
     <Button
       bg="#efefef"
-      size="lg"
+      fontSize="3xl"
       height="100px"
       width="300px"
       borderRadius="100"
