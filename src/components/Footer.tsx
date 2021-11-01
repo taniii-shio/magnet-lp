@@ -29,7 +29,7 @@ export const Footer = () => {
         </Center>
       </Box>
 
-      <Center mt="40">
+      <Center mt={["40", "10"]}>
         <Box px="10" _hover={{ color: "#686868" }}>
           <Link href="/contact">
             <a>
@@ -60,7 +60,7 @@ export const Footer = () => {
         </Box>
       </Center>
 
-      <Center mt="40" mb="50">
+      <Center mt={["40", "20"]} mb="50">
         <Text fontSize={["4xl", "xs"]} color="#686868" fontWeight="1">
           ©︎ MAGNET Inc.
         </Text>
