@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <Box mt="100">
+    <Box mt="100" w="1300px">
       <Center>
         <Divider w="1050px"></Divider>
       </Center>
