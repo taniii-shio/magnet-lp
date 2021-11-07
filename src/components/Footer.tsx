@@ -30,28 +30,28 @@ export const Footer = () => {
       </Box>
 
       <Center mt={["40", "10"]}>
-        <Box px="10" _hover={{ color: "#686868" }}>
+        <Box mx="10" _hover={{ color: "#686868" }}>
           <Link href="/contact">
             <a>
               <Text fontSize={["3xl", "md"]}>お問い合わせ</Text>
             </a>
           </Link>
         </Box>
-        <Box px="10" _hover={{ color: "#686868" }}>
+        <Box mx="10" _hover={{ color: "#686868" }}>
           <Link href="/qa">
             <a>
               <Text fontSize={["3xl", "md"]}>よくある質問</Text>
             </a>
           </Link>
         </Box>
-        <Box px="10" _hover={{ color: "#686868" }}>
+        <Box mx="10" _hover={{ color: "#686868" }}>
           <Link href="/privacy">
             <a>
               <Text fontSize={["3xl", "md"]}>プライバシーポリシー</Text>
             </a>
           </Link>
         </Box>
-        <Box px="10" _hover={{ color: "#686868" }}>
+        <Box mx="10" _hover={{ color: "#686868" }}>
           <Link href="/terms">
             <a>
               <Text fontSize={["3xl", "md"]}>利用規約</Text>
