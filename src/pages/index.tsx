@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <Box w="1300px" mx="auto">
       <Top />
-      <Box position="absolute" left="0" zIndex="-1">
+      {/* <Box position="absolute" left="0" zIndex="-1">
         <Image src="/images/bg-gray.png" width={535} height={2858} />
-      </Box>
+      </Box> */}
 
       <What />
 
@@ -28,9 +28,9 @@ export default function Home() {
       </Box> */}
 
       <Ex />
-      <Box position="absolute" left="0" zIndex="-1" mt="40">
+      {/* <Box position="absolute" left="0" zIndex="-1" mt="40">
         <Image src="/images/bg-gray.png" width={535} height={2858} />
-      </Box>
+      </Box> */}
 
       <Howtouse />
 
