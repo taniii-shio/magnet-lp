@@ -12,7 +12,7 @@ export const TopimgBg: VFC<Props> = memo((props) => {
       {/* <Box position="absolute" zIndex="-1" left="0" opacity="0.3" mt="10">
         <Image src="/images/bg-bluered.png" width={2810.26} height={2500} />
       </Box> */}
-      <Box ml={["100", "0"]}>
+      <Box ml={["100px", "10px"]} w={["1000px", "250px"]} mt={["30px", "10px"]}>
         <Link href="/">
           <a>
             <Box>
