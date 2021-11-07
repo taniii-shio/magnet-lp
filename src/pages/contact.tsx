@@ -1,4 +1,4 @@
-import { Box, Center, Heading } from "@chakra-ui/layout";
+import { Box, Center, Heading, Text } from "@chakra-ui/layout";
 import { Footer } from "src/components/Footer";
 import { Input } from "@chakra-ui/input";
 import { PrimaryButton } from "src/components/atoms/PrimaryButton";
@@ -12,23 +12,26 @@ export default function Contact() {
       <TopimgBg />
 
       <Center mt="30">
-        <Heading as="h1" size="2xl">
+        <Heading as="h1" size="2xl" d={["none", "block"]}>
+          お問い合わせ
+        </Heading>
+        <Heading as="h1" size="4xl" d={["block", "none"]}>
           お問い合わせ
         </Heading>
       </Center>
 
       <Box mt="20">
-        <Center mr="530">
-          <Heading as="h2" size="md">
+        <Center mr="650">
+          <Text fontSize={["4xl", "2xl"]} fontWeight="bold">
             お名前
-          </Heading>
+          </Text>
         </Center>
         <Center mt="5">
           <Input
             bg="white"
             placeholder="お名前"
-            w="600px"
-            h="50px"
+            w={["800px", "600px"]}
+            h={["100px", "50px"]}
             // value={userId}
             // onChange={onChangeUserId}
           />
@@ -36,17 +39,17 @@ export default function Contact() {
       </Box>
 
       <Box mt="10">
-        <Center mr="450">
-          <Heading as="h2" size="md">
+        <Center mr="520">
+          <Text fontSize={["4xl", "2xl"]} fontWeight="bold">
             メールアドレス
-          </Heading>
+          </Text>
         </Center>
         <Center mt="5">
           <Input
             bg="white"
             placeholder="メールアドレス"
-            w="600px"
-            h="50px"
+            w={["800px", "600px"]}
+            h={["100px", "50px"]}
             // value={userId}
             // onChange={onChangeUserId}
           />
@@ -54,16 +57,16 @@ export default function Contact() {
       </Box>
 
       <Box mt="10">
-        <Center mr="550">
-          <Heading as="h2" size="md">
+        <Center mr="670">
+          <Text fontSize={["4xl", "2xl"]} fontWeight="bold">
             内容
-          </Heading>
+          </Text>
         </Center>
         <Center mt="5">
           <Textarea
             bg="white"
             placeholder="内容"
-            w="600px"
+            w={["800px", "600px"]}
             h="300px"
             // value={userId}
             // onChange={onChangeUserId}

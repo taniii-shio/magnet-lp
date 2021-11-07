@@ -8,7 +8,10 @@ export default function Contact() {
       <TopimgBg />
 
       <Center mt="30">
-        <Heading as="h1" size="2xl">
+        <Heading as="h1" size="2xl" d={["none", "block"]}>
+          利用規約
+        </Heading>
+        <Heading as="h1" size="4xl" d={["block", "none"]}>
           利用規約
         </Heading>
       </Center>
