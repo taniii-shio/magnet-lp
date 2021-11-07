@@ -4,7 +4,7 @@ import { TopimgBg } from "../components/organisms/TopimgBg";
 
 export default function Contact() {
   return (
-    <Box w="1300px" mx="auto">
+    <Box w={["100%", "1300px"]} mx="auto">
       <TopimgBg />
 
       <Center mt="30">
